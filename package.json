@@ -1,0 +1,23 @@
+{
+  "name": "vagrant",
+  "version": "1.0.0",
+  "description": "Application for locating what's happening given a specific day.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Nwankwo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gnwankwo/Travel_Time.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.2",
+    "mocha": "^3.3.0",
+    "nodemon": "^1.11.0"
+  }
+}
