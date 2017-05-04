@@ -2,9 +2,9 @@
   "name": "vagrant",
   "version": "1.0.0",
   "description": "Application for locating what's happening given a specific day.",
-  "main": "index.js",
+  "main": ".js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node_modules/.bin/nodemon -L app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "George Nwankwo",
