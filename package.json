@@ -5,7 +5,7 @@
   "main": ".js",
   "scripts": {
     "start": "node_modules/.bin/nodemon -L app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha --recursive tests/"
   },
   "author": "George Nwankwo",
   "repository": {
