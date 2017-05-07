@@ -10,7 +10,7 @@ router.use(function timeLog(req, res, next) {
 });
 
 // define the root google map route
-router.get('/maps', function(req, res) {
+router.get('/', function(req, res) {
   res.send(' Lets find your current location');
 });
 
