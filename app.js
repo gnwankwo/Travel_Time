@@ -1,16 +1,16 @@
 const express = require('express');
 const app = express();
 
-//Load and mount controllers
+//Load the controllers
 const events = require('./controllers/events');
-app.use('/events', events);
-
 const facebook = require('./controllers/facebook');
+const google_map = require('./controllers/google_map');
+
+//Mount the controllers
+app.use('/events', events);
 app.use('/facebook', events);
-
-const google_maps = require('./controllers/google_maps');
-app.use('/google_maps', events);
-
+app.use('/google_map', events);
+console.log("Mounted and loaded all controllers successfully")
 
 module.exports = app;
 app.listen(8000);

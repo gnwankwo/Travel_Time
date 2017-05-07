@@ -1,0 +1,24 @@
+
+{
+  "development": {
+    "username": "WhtsUp2nite",
+    "password": "WhtsUp2nite",
+    "database": "WhtsUp2nite_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "WhtsUp2nite",
+    "password": "WhtsUp2nite",
+    "database": "WhtsUp2nite_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "WhtsUp2nite",
+    "password": "WhtsUp2nite",
+    "database": "WhtsUp2nite_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
